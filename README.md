@@ -11,19 +11,19 @@ Esse repositório tem como intuito guardar o algoritmo genético desenvolvido du
 ### Como executar:
 - Clone o repositório e entre na pasta **build**, onde ficará os arquivos de configuração CMake: 
 ```console
-cd build
+foo@user:~$ cd build
 ```
 - Exucete o comando cmake para configurar o ambiente:
 ```console
-cmake ..
+foo@user:~$ cmake ..
 ```
 - Chame o make para compilar:
 ```console
-make
+foo@user:~$ make
 ```
 - O arquivo executável será gerado **Executable.exe**, para executá-lo faça:
 ```console
-./Executable
+foo@user:~$ ./Executable
 ```
 
 ### Organização:
@@ -31,3 +31,9 @@ Segue a organização atual caso queira realizar contribuições:
 - include : diretório em que fica os aquivos .h das classes
 - build : diretório de configuração de ambiente do cmake
 - src: diretório em que fica os arquivos .cpp para implementação
+
+### Exemplo:
+Deve aparecer uma janela conforme o gif abaixo, apertando 'q' você pode ir passando as gerações e o gráfico é atualizado. Função em verde, linhas brancas seão os indivíduos, linha vermelha é o valor máximo e linh azul é o melhor indivíduo da atual geração:
+
+![Alt Text](https://github.com/MatheusBorgesKamla/Max_Found_GA/tree/master/gif/Max_Value_Detection_GA-2020-09-20_14.17.43.gif)
+
