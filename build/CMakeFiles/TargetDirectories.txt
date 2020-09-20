@@ -1,0 +1,3 @@
+/home/matheus/Documentos/Evolutionary_Comp/Max_Found_GA/build/CMakeFiles/edit_cache.dir
+/home/matheus/Documentos/Evolutionary_Comp/Max_Found_GA/build/CMakeFiles/rebuild_cache.dir
+/home/matheus/Documentos/Evolutionary_Comp/Max_Found_GA/build/CMakeFiles/Executable.dir
